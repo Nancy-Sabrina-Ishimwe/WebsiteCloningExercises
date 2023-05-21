@@ -30,38 +30,37 @@ font-family: Arial, sans-serif;
 
     position: relative;
     width: 100%;
-    margin-top: 20px;
-
-}
-.icon{
-width: 100%;
-
-padding: 10px;
-border-radius: 50px;
-display:flex;
-justify-content: center;
-align-items: center;
-box-shadow: 70%;
-border: 1px solid #ccc;
-font-size: 16px;
-
-}
-.icons{
-    position: absolute;
-    width: 100%;
+    margin :10px 20px;
     display: flex;
     justify-content: space-between;
-    padding: 12px 20px;
+    width: 449px;
+    height: 44px;
+    padding: 10px;
+    border-radius: 50px;
     align-items: center;
+    box-shadow: 70%;
+    border: 1px solid #ccc;
+    font-size: 16px;
+   padding: 10px 20px;
 
 }
+
+.searchbox input{
+    border-style: none;
+}
+.searchbox img{
+    width:24px;
+    height: 24px;
+}
+
+
 .buttons{
 
     display:flex;
     justify-items: center;
     align-items: center;
-    margin: auto;
-    
+    margin-right: 10px;
+    margin-left: 20px;
 }
 
 .para{
@@ -69,7 +68,36 @@ font-size: 16px;
     display:flex;
     justify-items: center;
     align-items: center;
-    margin: 10px 10px 10px 10px;
+    margin: 5px 20px;
+    font-size: 14px;
+    justify-content: space-between;
     
     
+}
+.para a{
+    padding: 5px ;
+    font-size: 14px;
+
+}
+.buttons{
+    margin:5px 5px ;
+    padding: 8px 14px;
+    color: #555;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    justify-content: space-between;
+    
+}
+
+.searchbtn{
+    margin: 5px 10px;
+    padding: 8px;
+    box-shadow: 2px rgb(149, 147, 147);
+    
+}
+.feelingbtn{
+    margin: 5px 10px;
+    padding: 8px;
+    box-shadow: 2px rgb(149, 147, 147);
 }
