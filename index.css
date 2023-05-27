@@ -14,25 +14,24 @@ body{
     justify-content: space-between;
     min-height: 100vh;
     overflow: hidden;
+    color: #202124;
 }
-
-.container{
+/*.container{
     height: 100vh;
     display: flex;
     flex-direction: column;
 
-}
+}*/
 
 .nav{
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 10px 20px;
-    justify-content: space-between;
-    height: 60px ;
-    
+   
 
 }
+
 
 ul{
     display: flex;
@@ -75,25 +74,21 @@ li a:hover{
     border-radius: 50%;
     width: 100%;
     margin-top: 6px;
+    cursor: pointer;
     
 
 }
 
 .main{
     border: 2px solid black;
-    height: 50%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
 
-.footer{
-    border: 2px solid grey;
-    height: 10%;
-    width: 100%;
 
-}
 form{
     position: relative;
     margin-top: 30px;
@@ -158,16 +153,59 @@ button:hover{
     width: 100%;
     background-color: grey;
 }*/
+
+
+
+.lang{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 13px;
+    color: #111;
+}
+.lang a{
+    margin-left: 5px;
+    color: #1a0dab;
+}
+.lang a:hover{
+    text-decoration: underline;
+}
+.footer{
+    background: grey;
+    border: 2px solid #f2f2f2;
+    height: 10%;
+    width: 100%;
+
+}
+.footer h4{
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 14px;
+    line-height: 39.4px;
+    font-weight: 400;
+    padding-left: 29px;
+    border: 1px solid #eee;
+}
+
+.footer a{
+    color:#5f6164;
+    display: inline-block;
+    padding: 12px 11.3px;
+    font-size: 14px;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+
 .links{
     display: flex;
-    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
     height: 50px;
     justify-content: space-between;
     padding: 15px;
 }
-
-.h{
-    color: grey;
-    padding-left: 13px;
-
+.links1{
+    padding-left: 18.7px;
+    flex: 1;
+}
+.links2{
+    padding-right: 18.7px;
 }
